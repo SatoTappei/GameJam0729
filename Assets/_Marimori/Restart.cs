@@ -19,7 +19,7 @@ public class Restart : MonoBehaviour
     {
         yield return new WaitForSeconds(1.0f);
         //Debug.Log("wait");
-        SceneManager.LoadScene("Tanimura");
+        SceneManager.LoadScene("Play");
     }
 
 
